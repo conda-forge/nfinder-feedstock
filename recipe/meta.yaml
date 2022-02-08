@@ -20,6 +20,7 @@ requirements:
     - python >=3.7
     - setuptools_scm
   run:
+    - magicgui
     - matplotlib-base
     - napari
     - napari-plugin-engine
