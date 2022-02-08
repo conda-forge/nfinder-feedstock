@@ -1,5 +1,5 @@
 {% set name = "nfinder" %}
-{% set version = "0.1" %}
+{% set version = "0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nfinder-{{ version }}.tar.gz
-  sha256: d970328104eee1c4b2a9007542345610f1864031e52d24d800971b5a88848ec6
+  sha256: aa4634d98423d8888532c2b2f58595914d0d1a578c6ff795b5144f6f25673772
 
 build:
   noarch: python
